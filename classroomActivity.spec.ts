@@ -31,6 +31,6 @@ test ("Get to print the Industry Dropdown Options", async ({page}) => {
     console.log(
         await page.locator(`(//select[@id="createLeadForm_industryEnumId"]/option)[${index}]`).innerText()
         );
-    }
+    } 
             
 }); 
